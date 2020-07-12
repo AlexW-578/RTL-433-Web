@@ -71,7 +71,7 @@ def Read(window):
                     window["Rain"].Update(total_rainfall)
                     print(time, "\n", model, "\n", station_id, "\n", temperature, "\n", humidity, "\n", wind_degrees, "\n",
                           wind_avg_speed, "\n", wind_gust, "\n", total_rainfall)
-            except:
+        except:
                 print("error")
                 
 

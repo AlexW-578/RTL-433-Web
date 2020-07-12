@@ -93,7 +93,7 @@ def main():
               [sg.Text("Average Wind Speed: "), sg.Text('            ', key="w_avg")],
               [sg.Text("Wind Gust Speed: "), sg.Text('            ', key="w_gust")],
               [sg.Text("Total Rainfall: "), sg.Text('            ', key="Rain")]]
-    window = sg.Window("RTL-433", layout, web_ip="192.168.1.125", web_port=8888, web_start_browser=False)
+    window = sg.Window("RTL-433", layout, web_ip="192.168.1.140", web_port=8888, web_start_browser=False)
     Read(window)
 
 
